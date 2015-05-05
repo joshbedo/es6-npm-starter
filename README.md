@@ -1,2 +1,19 @@
 # es6-npm-starter
 Starter for developing an ES6 npm module
+
+# How to use it
+
+1) Create or edit modules within the `/src` directory.
+2) Run `npm run compile` when you want to compile the `/src` directory.
+3) Run npm publish (NOTE: requires npm account to be setup)
+
+usage example:
+```js
+import { ComponentA, ComponentB } from 'es6-npm-start'
+
+console.log(
+  new ComponentA(),
+  new ComponentB(),
+  version() // npm package version
+);
+```
