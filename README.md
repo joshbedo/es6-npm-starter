@@ -9,7 +9,7 @@ Starter for developing an ES6 npm module
 
 usage example:
 ```js
-import { ComponentA, ComponentB } from 'es6-npm-start'
+import { ComponentA, ComponentB } from '<package-name>'
 
 console.log(
   new ComponentA(),
