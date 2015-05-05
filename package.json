@@ -1,12 +1,12 @@
 {
   "name": "es6-npm-starter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "compile": "babel -d lib/ src/",
     "prepublish": "npm run compile"
   },
-  "main": "lib/person.js",
+  "main": "lib/Base.es6.js",
   "author": "Josh Bedo <joshbedo@yahoo.com> (http://imstillreallybored.com/)",
   "license": "ISC",
   "dependencies": {

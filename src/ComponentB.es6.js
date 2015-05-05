@@ -1,13 +1,14 @@
 import 'core-js/shim';
 
-export default class Person {
+export default class ComponentB {
 
   constructor( name ) {
+    console.log('ComponentB constructed!');
     this.name = name;
   }
 
   sayHello() {
-    return `Hello ${ this.name }!`;
+    return `Hello ${foo} ${ this.name }!`;
   }
 
   sayHelloThreeTimes() {

@@ -1,8 +1,9 @@
 import 'core-js/shim';
 
-export default class Person {
+export default class ComponentA {
 
   constructor( name ) {
+    console.log('ComponentA constructed!');
     this.name = name;
   }
 
